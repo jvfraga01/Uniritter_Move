@@ -1,0 +1,6 @@
+# Usamos a Tasks API (mediapipe.tasks), não a API legada `mediapipe.solutions`
+# (essa vem quebrada/ausente em várias builds recentes no Windows -- bug
+# conhecido do próprio pacote). Qualquer versão recente serve.
+mediapipe>=0.10.14
+opencv-python>=4.9
+pytest>=8.0

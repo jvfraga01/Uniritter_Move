@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# modelo baixado via `python -m tools.download_model` (binário, ~6MB, não é código)
+models/
+
+# estado de runtime (contagem salva localmente) -- não é código, muda a cada uso
+data/
+
+.venv/
+venv/
+
+# Python portatil baixado por iniciar.bat (binario, ~15MB, não é código)
+runtime/
+_runtime_python.zip
+_get-pip.py

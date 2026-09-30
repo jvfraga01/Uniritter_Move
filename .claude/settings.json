@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python .claude/hooks/run_tests.py",
+            "timeout": 60,
+            "statusMessage": "Rodando pytest..."
+          }
+        ]
+      }
+    ]
+  }
+}
